@@ -1,0 +1,6 @@
+I did the first part of the extra credit using the unix getch()
+function to remove the char from std out. 
+
+to compile:
+
+	g++ -lcrypt -o spass.x spass.cpp

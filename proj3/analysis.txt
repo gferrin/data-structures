@@ -1,0 +1,11 @@
+My pop() time is constant or O(1) time. I adapted my class from c++ list pop_front()
+which works by adjsting a few pointers, whcih will always be the same no matter the size 
+of the list, making it constant time. That and the website with the documentation also 
+says its constant http://www.cplusplus.com/reference/list/list/pop_front/
+
+
+template <typename T>
+void Queue<T>::pop()
+{
+	array.pop_front();
+}
